@@ -1,4 +1,4 @@
-# js-criteria-pattern
+# criteria-pattern-js
 
 A JavaScript implementation of the [Python criteria-pattern library](https://github.com/joyanedel/criteria-pattern), which, itself, is a fork of the original [Criteria Pattern library](https://github.com/adriamontoto/criteria-pattern)
 

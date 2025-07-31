@@ -1,16 +1,31 @@
 {
-  "name": "js-criteria-pattern",
-  "version": "1.0.0",
+  "name": "criteria-pattern-js",
+  "version": "0.1.0",
   "description": "JavaScript implementation of the criteria-pattern library.",
-  "main": "src/criteria.js",
-  "type": "module",
-  "scripts": {
-    "test": "vitest"
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
   },
-  "keywords": ["criteria", "filter", "order", "pattern"],
-  "author": "",
+  "files": [
+    "src/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyanedel/criteria-pattern-js.git"
+  },
+  "homepage": "https://github.com/joyanedel/criteria-pattern-js#README.md",
+  "bugs": {
+    "url": "https://github.com/joyanedel/criteria-pattern-js/issues"
+  },
+  "keywords": ["criteria", "filter", "order", "pattern", "validation"],
+  "author": "joyanedel",
   "license": "MIT",
   "devDependencies": {
     "vitest": "^1.0.0"
+  },
+  "scripts": {
+    "test": "vitest"
   }
 }

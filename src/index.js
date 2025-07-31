@@ -1,8 +1,9 @@
 /**
  * Entry point for js-criteria-pattern library.
  */
-export { Criteria, AndCriteria, OrCriteria, NotCriteria } from './Criteria.js';
-export { Filter } from './Filter.js';
-export { FilterOperator } from './FilterOperator.js';
-export { Order } from './Order.js';
-export { OrderDirection } from './OrderDirection.js';
+export * from './Criteria.js';
+export * from './Filter.js';
+export * from './FilterOperator.js';
+export * from './Order.js';
+export * from './OrderDirection.js';
+export * from './parser.js';
