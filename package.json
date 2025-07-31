@@ -1,0 +1,16 @@
+{
+  "name": "js-criteria-pattern",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of the criteria-pattern library.",
+  "main": "src/criteria.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": ["criteria", "filter", "order", "pattern"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  }
+}
